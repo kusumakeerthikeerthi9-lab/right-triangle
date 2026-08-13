@@ -1,0 +1,50 @@
+# Right Triangle Calculator in Java
+
+## Description
+
+This is a simple Java project that calculates the properties of a right triangle.
+
+## Features
+
+- Takes base and height as input
+- Calculates hypotenuse
+- Calculates area
+- Calculates perimeter
+- Displays the results
+
+## Formula
+
+Hypotenuse = √(Base² + Height²)
+
+Area = ½ × Base × Height
+
+Perimeter = Base + Height + Hypotenuse
+
+## Technologies Used
+
+- Java
+- Scanner
+- Math functions
+
+## How to Run
+
+1. Install Java JDK.
+2. Clone or download this repository.
+3. Open the terminal.
+4. Go to the src folder.
+5. Compile the program:
+
+javac RightTriangle.java
+
+6. Run:
+
+java RightTriangle
+
+## Example
+
+Base = 3
+Height = 4
+
+Hypotenuse = 5
+Area = 6
+Perimeter = 12

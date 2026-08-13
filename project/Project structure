@@ -1,0 +1,8 @@
+Right-Triangle-Java/
+│
+├── src/
+│   └── RightTriangle.java
+│
+├── README.md
+├── .gitignore
+└── LICENSE

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class RightTriangle {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("===== RIGHT TRIANGLE CALCULATOR =====");
+
+        System.out.print("Enter base: ");
+        double base = sc.nextDouble();
+
+        System.out.print("Enter height: ");
+        double height = sc.nextDouble();
+
+        double hypotenuse = Math.sqrt(
+                (base * base) + (height * height)
+        );
+
+        double area = 0.5 * base * height;
+
+        double perimeter = base + height + hypotenuse;
+
+        System.out.println("\n===== RESULTS =====");
+        System.out.println("Base       : " + base);
+        System.out.println("Height     : " + height);
+        System.out.println("Hypotenuse : " + hypotenuse);
+        System.out.println("Area       : " + area);
+        System.out.println("Perimeter  : " + perimeter);
+
+        System.out.println("\nThe given triangle is a RIGHT TRIANGLE.");
+
+        sc.close();
+    }
+}

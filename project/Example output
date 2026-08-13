@@ -1,0 +1,13 @@
+===== RIGHT TRIANGLE CALCULATOR =====
+
+Enter base: 3
+Enter height: 4
+
+===== RESULTS =====
+Base       : 3.0
+Height     : 4.0
+Hypotenuse : 5.0
+Area       : 6.0
+Perimeter  : 12.0
+
+The given triangle is a RIGHT TRIANGLE.
